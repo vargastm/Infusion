@@ -2,6 +2,9 @@ body {
     margin: 0;
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
+img {
+    max-width: 100%;
+}
 
 header {
     background: #FFFFFF;
@@ -54,6 +57,47 @@ header nav li a:hover {
      
 }
 
-header button {
+.hero {
+    height: 80vh;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    background: linear-gradient(45deg, #FFFFFF 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat, 
+        linear-gradient(-45deg, #FFFFFF 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat,
+        url(../images/01.jpg);
+    background-size: 40px 40px, 40px 40px, cover;
+}
+
+.hero h1 {
+    background-color: #63C6AE;
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 30px 20px;
+    text-transform: uppercase;
+}
+
+.hero p {
+    background-color: #242C2C;
+    margin: 5px 30px 35px;
+    color: #FFFFFF;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.hero a {
+    border: 1px solid rgba(255, 255, 255, .3);
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    padding: 15px 25px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
 }
