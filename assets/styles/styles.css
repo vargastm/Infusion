@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #FFFFFF;
+    width: 100%;
+}
+
+.logo-text {
+    text-transform: uppercase;
+    background-color: #63C6AE;
+    font-size: 24px;
+    margin: 0;
+    padding: 20px;
+    display: block;
+    float: left;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+header nav {
+    clear: left;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    list-style-type: none;
+    background: #242C2C;
+    text-align: center;
+    border-bottom: 1px dotted rgba(255, 255, 255 0.2);
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    color: #586165;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    padding: 25px 0;
+    transition: .5s ease;
+}
+
+header nav li a:hover {
+    color: #63C6AE;
+     
+}
+
+header button {
+
+}
