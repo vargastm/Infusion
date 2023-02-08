@@ -323,4 +323,17 @@ footer ul a {
         display: flex;
         gap: 30px;
     }
-}
+
+    .last-articles-thumbs {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    footer .container {
+        display: flex;
+        gap: 1.5em
+    }
+
+    footer .container h2 {
+        text-transform: uppercase;
+    }
+}   
