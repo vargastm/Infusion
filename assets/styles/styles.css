@@ -9,6 +9,7 @@ body {
     margin-left: auto;
     padding-left: 1em;
     padding-right: 1em;
+    max-width: 980px;
 }
 
 img {
@@ -31,6 +32,7 @@ header {
     text-decoration: none;
     font-weight: bold;
     color: #FFFFFF;
+    text-align: right;
 }
 
 header nav {
@@ -112,8 +114,11 @@ header nav li a:hover {
 }
 
 .people-cards {
-    margin-top: 2.5em;
-    border-left: 1px solid #DBE1E7;
+    margin: 2.5em 0;
+}
+
+.people-cards article {
+    border: 1px solid #DBE1E7;
 }
 
 .people-cards article:hover {
@@ -160,7 +165,6 @@ header nav li a:hover {
 .content {
     background: #F8F9F9;
     padding: 20px 0 80px;
-    border-top: 1px solid #E3E3E3;
 }
 
 .content h3 {
@@ -313,5 +317,10 @@ footer ul a {
 
     header nav a {
         background: #FFFFFF;
+    }
+
+    .people-cards, .content .container  {
+        display: flex;
+        gap: 30px;
     }
 }
