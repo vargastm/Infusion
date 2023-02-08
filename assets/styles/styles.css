@@ -63,7 +63,7 @@ header nav li a {
 
 header nav li a:hover {
     color: #63C6AE;
-     
+
 }
 
 .hero {
@@ -75,7 +75,7 @@ header nav li a:hover {
     justify-content: center;
     align-items: center;
 
-    background: linear-gradient(45deg, #FFFFFF 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat, 
+    background: linear-gradient(45deg, #FFFFFF 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat,
         linear-gradient(-45deg, #FFFFFF 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat,
         url(../images/01.jpg);
     background-size: 40px 40px, 40px 40px, cover;
@@ -130,7 +130,7 @@ header nav li a:hover {
     color: #63C6AE;
 }
 
-.people-cards article > img {
+.people-cards article>img {
     width: 100%;
 }
 
@@ -149,7 +149,7 @@ header nav li a:hover {
 .people-cards-content h2 {
     color: #737C85;
     font-size: 21px;
-    font-weight: normal ;
+    font-weight: normal;
 }
 
 .people-cards-content p {
@@ -198,4 +198,43 @@ header nav li a:hover {
 
 .button-secundary {
     background-color: #455357;
+}
+
+.last-articles-title {
+    background-color: #63C6AE;
+    padding: 5px 0;   
+}
+
+.last-articles-title h2 {
+    font-size: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight:  400;
+}
+
+.last-articles-thumbs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 0;
+}
+
+.last-articles-thumbs img {
+    display: block;
+    width: 100%;
+}
+
+.laptop-slider {
+    background-color: #242A2C;
+    padding: 125px 0 100px;
+    width: 100%;
+    overflow: auto;
+}
+
+.slideshow {
+    white-space: nowrap;
+}
+
+.slideshow figure {
+    display: inline-block;
 }
